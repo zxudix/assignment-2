@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background: #efe8dc;
+    color: black;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: #efe8dc;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #d2cfcf;
+}
+
+.highlight-row {
+    background: #d2cfcf;
+}
+
+
+.feedback-form {
+    width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.feedback-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: #efe8dc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background: #efe8dc;
+  color: #333;
+  border: 1px solid #333;
+}

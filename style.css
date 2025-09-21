@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: black; 
+}
+
+/* Task 1 Layout */
+.header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.navbar {
+  background: #efe8dc;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar a {
+  background: #333; 
+  color: white; 
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.navbar a:hover {
+  background: #ddd; 
+  color: black;    
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.content {
+  float: right;
+  width: 70%;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.sidebar h3,
+.sidebar h4,
+.content h3,
+.content h4 {
+  color: #333;
+}
+
+.footer {
+  clear: both;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;  
+  bottom: 0;
+  width: 100%;
+}
