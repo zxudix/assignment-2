@@ -34,7 +34,7 @@ tr:nth-child(even) {
 }
 
 .highlight-row {
-    background: #red;
+    background: red;
 }
 
 
@@ -81,4 +81,5 @@ tr:nth-child(even) {
   color: #333;
   border: 1px solid #333;
 }
+
 
